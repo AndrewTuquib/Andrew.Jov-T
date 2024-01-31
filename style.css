@@ -132,18 +132,6 @@
 
 
 
-body {
-  min-height: 100vh;
-  background: #212534;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-  box-sizing: border-box;
-}
-
-
 .magic-card {
   background: #191c29;
   width: var(--card-width);
@@ -213,12 +201,4 @@ body {
   100% {
     --rotate: 360deg;
   }
-}
-
-a {
-  color: #212534;
-  text-decoration: none;
-  font-family: sans-serif;
-  font-weight: bold;
-  margin-top: 2rem;
 }
