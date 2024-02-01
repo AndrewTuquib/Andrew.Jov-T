@@ -197,7 +197,7 @@ color: #1A1A2E;
 
 .carousel_img {
   object-fit: cover;
-  max-height: 600px;
+  height: 600px;
   margin: 0 auto;
 }
 
