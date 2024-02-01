@@ -38,7 +38,7 @@ top: 90%;
 }
 
 .brand_logo {
-width: 4rem;
+width: 3em;
 }
 
 .text-shadow-drop-br {
@@ -100,10 +100,6 @@ font-weight: 700;
 
 #work-samples {
 background-color: white;
-}
-
-#about {
-min-height: 1vh;
 }
 
 .feature-photo {
@@ -205,7 +201,11 @@ color: #1A1A2E;
   margin: 0 auto;
 }
 
-
+#profile_photo, .about_photo {
+  object-fit: contain;
+  object-position: top;
+  max-width: 650px;
+}
 
 @media only screen and (max-width: 800px) {
 
@@ -214,10 +214,8 @@ color: #1A1A2E;
 }
 
 #profile_photo, .about_photo {
-  object-fit: cover;
-  object-position: top;
   height: 300px;
-  width: 100%;
+  max-width: 400px;
 }
 
 .features_grid {
@@ -249,16 +247,14 @@ main {
 
 @media only screen and (min-width: 1200px) {
   
-  body > section, .carousel-inner {
-    height: 100vh;
-  }
   
   .about_section {
     display: inline-flex;
     justify-content: center;
   }
-
   
-  
+  main {
+    height: 100vh;
+  }
 
   }
