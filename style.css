@@ -180,9 +180,13 @@ animation: spin 2.5s linear infinite;
 
 .carousel_img {
   object-fit: contain;
+  position: center;
   overflow: hidden;
-  max-height: 600px;
-  margin: 0 auto;
+  margin: auto;
+}
+
+.carousel-inner {
+  height: 900px;
 }
 
 
@@ -197,8 +201,8 @@ animation: spin 2.5s linear infinite;
   padding: 2em 3em;
 }
 
-.carousel_img {
-  max-height: 300px;
+.carousel-inner {
+  height: 600px;
 }
 
 }
