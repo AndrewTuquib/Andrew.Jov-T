@@ -71,7 +71,7 @@ display: grid;
 grid-template-columns: 1fr 1fr;
 grid-template-rows: .5fr 1fr;
 align-items: start;
-gap: 50px;
+gap: 20px;
 }
 
 .work_history {
@@ -94,19 +94,8 @@ order: 2;
 order: 2;
 }
 
-.feature_heading{
-font-weight: 700;
-}
-
 #work-samples {
 background-color: white;
-}
-
-.feature-photo {
-object-fit: none;
-object-position: center;
-width: 50%;
-border-radius: 50%;
 }
 
 @property --rotate {
@@ -188,72 +177,28 @@ animation: spin 2.5s linear infinite;
 }
 }
 
-.carousel_text {
-margin: 1em 0;
-display: block;
-padding-top: 2em;
-color: #1A1A2E;
-}
 
 .carousel_img {
-  object-fit: cover;
-  height: 600px;
+  object-fit: contain;
+  overflow: hidden;
+  max-height: 600px;
   margin: 0 auto;
 }
 
-#profile_photo, .about_photo {
-  object-fit: cover;
-  object-position: top;
-  max-width: 650px;
-}
 
 @media only screen and (max-width: 800px) {
-
-.about_section {
-  display: block;
-}
-
-#profile_photo, .about_photo {
-  max-width: 300px;
-}
 
 .features_grid {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: .5fr 1fr;
   align-items: start;
-  gap: 10px;
+  gap: 5px;
   padding: 2em 3em;
 }
 
-.carousel_text >i mg {
-  object-fit: cover;
-  object-position: top;
-}
-
-.about_photo_container > div{
- padding: 0;
-}
 .carousel_img {
   max-height: 300px;
 }
 
-main {
-  height: 80vh;
 }
-
-}
-
-@media only screen and (min-width: 1200px) {
-  
-  
-  .about_section {
-    display: inline-flex;
-    justify-content: center;
-  }
-  
-  main {
-    height: 100vh;
-  }
-
-  }
