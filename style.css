@@ -202,7 +202,7 @@ color: #1A1A2E;
 }
 
 #profile_photo, .about_photo {
-  object-fit: contain;
+  object-fit: cover;
   object-position: top;
   max-width: 650px;
 }
@@ -214,8 +214,7 @@ color: #1A1A2E;
 }
 
 #profile_photo, .about_photo {
-  height: 300px;
-  max-width: 400px;
+  max-width: 300px;
 }
 
 .features_grid {
