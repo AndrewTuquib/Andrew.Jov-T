@@ -199,6 +199,10 @@ animation: spin 2.5s linear infinite;
   font-size: medium;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 @media only screen and (max-width: 990px) {
 
 .features_grid {
