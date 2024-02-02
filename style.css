@@ -195,8 +195,8 @@ animation: spin 2.5s linear infinite;
   font-size:x-large;
 }
 
-.carousel-caption >p{
-  font-size: medium;
+.carousel-caption > p{
+  font-size: medium; 
 }
 
 body {
