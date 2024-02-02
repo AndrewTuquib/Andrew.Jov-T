@@ -17,8 +17,15 @@ animation: gradient-animation 25s ease infinite;
 
 }
 
+.gradient-background-3 {
+  background: linear-gradient(300deg, #910A67, #720455, #3C0753,#030637);
+  background-size: 200% 200%;
+  animation: gradient-animation 25s ease infinite;
+  }
+  
+
 .gradient-background-2 {
-background: linear-gradient(298deg, #1A1A2E, #16213E, #0F3460,#872341, #BE3144, #F05941);
+background: linear-gradient(300deg, #1A1A2E, #16213E, #0F3460,#872341, #BE3144, #F05941);
 background-size: 250% 100%;
 animation: gradient-animation2 25s ease infinite;
 top: 90%;
@@ -35,6 +42,10 @@ top: 90%;
   background-position: 17% 10%;
 }
 
+}
+
+.text-bg-light{
+  --bs-bg-opacity: .75;
 }
 
 .brand_logo {
@@ -75,24 +86,15 @@ gap: 20px;
 }
 
 .work_history {
-order: 1;
 grid-row-start: 2;
 grid-row-end: 5;
 }
 
 .education {
-order: 1;
 grid-row-start: 1;
 grid-row: 1.5fr;
 }
 
-.software_used {
-order: 2;
-}
-
-.technologies{
-order: 2;
-}
 
 #work-samples {
 background-color: white;
@@ -180,17 +182,51 @@ animation: spin 2.5s linear infinite;
 
 .carousel_img {
   object-fit: contain;
-  position: center;
-  overflow: hidden;
-  margin: auto;
-}
-
-.carousel-inner {
-  height: 900px;
+  margin: auto auto;
+  max-height: 700px;
+  width: auto;
 }
 
 
-@media only screen and (max-width: 800px) {
+.carousel-button {
+  position: absolute;
+}
+
+.img-wrapper {
+  position: relative;
+}
+
+.img-responsive {
+  width: 100%;
+  height: auto;
+}
+
+.img-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 80%;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.img-overlay:before {
+  content: ' ';
+  display: block;
+  /* adjust 'height' to position overlay content vertically */
+  height: 50%;
+}
+
+.carousel-caption > h2  {
+  font-size:x-large;
+}
+
+.carousel-caption >p{
+  font-size: medium;
+}
+
+
+@media only screen and (max-width: 990px) {
 
 .features_grid {
   display: grid;
@@ -202,7 +238,36 @@ animation: spin 2.5s linear infinite;
 }
 
 .carousel-inner {
-  height: 600px;
+  height: 60vh;
 }
 
+.carousel_img {
+  height: 500px;
+  width: auto;
+}
+
+.trade_mark {
+  font-size: xx-small;
+}
+
+.text-body-secondary > svg{
+  width: 20px;
+}
+.brand_logo {
+  width: 30px;
+}
+
+.carousel-caption > h2 {
+  font-size: small;
+}
+.carousel-caption >p {
+  font-size: x-small;
+}
+}
+
+@media only screen and (max-width: 700px) {
+.carousel-indicators {
+    display: none;
+  }
+  
 }
