@@ -192,11 +192,15 @@ animation: spin 2.5s linear infinite;
 }
 
 .carousel-caption > h2  {
-  font-size:x-large;
+  font-size: large;
 }
 
 .carousel-caption > p{
-  font-size: medium; 
+  font-size: small; 
+}
+
+.carousel-caption > h2, .carousel-caption > p {
+  font-weight: 700;
 }
 
 body {
@@ -256,6 +260,10 @@ body {
     display: none;
   }
 
+footer > .brand_logo {
+  height: 30px;
+  width: auto;
+}
   
 
 .carousel_img {
