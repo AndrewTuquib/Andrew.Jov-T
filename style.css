@@ -44,8 +44,8 @@ top: 90%;
 
 }
 
-.text-bg-light{
-  --bs-bg-opacity: .75;
+.text-bg-primary {
+  opacity: 0;
 }
 
 .brand_logo {
@@ -109,7 +109,7 @@ transition: color 1s;
 }
 .magic-card:hover:before, .magic-card:hover:after {
 animation: none;
-opacity: 0;
+opacity: 50;
 }
 
 
@@ -159,7 +159,7 @@ animation: spin 2.5s linear infinite;
 
 
 .carousel_img {
-  object-fit: cover;
+  object-fit: contain;
   margin: 0 auto;
   max-height: 700px;
   width: auto;
@@ -241,11 +241,19 @@ animation: spin 2.5s linear infinite;
 .carousel-caption >p {
   font-size: x-small;
 }
+
+.carousel_img {
+  object-fit: cover;
+}
 }
 
 @media only screen and (max-width: 680px) {
 .trade_mark, .carousel-control-next, .carousel-control-prev {
     display: none;
   }
+
+.carousel_img {
+  object-fit: cover;
+}
   
 }
