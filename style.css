@@ -240,12 +240,19 @@ animation: spin 2.5s linear infinite;
 .carousel_img {
   object-fit: cover;
 }
+
+.brand_logo {
+  height: 55px;
+  width: auto;
+}
 }
 
 @media only screen and (max-width: 680px) {
 .trade_mark, .carousel-control-next, .carousel-control-prev {
     display: none;
   }
+
+  
 
 .carousel_img {
   object-fit: cover;
