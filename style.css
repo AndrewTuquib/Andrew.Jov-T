@@ -278,7 +278,7 @@ footer > .brand_logo {
   object-fit: cover;
 }
 
-.btn_width {
+.btn-lg.btn_width {
   width: 100%;
 }
   
