@@ -277,5 +277,10 @@ footer > .brand_logo {
 .carousel_img {
   object-fit: cover;
 }
+
+.btn_width {
+  width: 100%;
+  margin: 0 auto;
+}
   
 }
