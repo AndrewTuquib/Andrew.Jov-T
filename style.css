@@ -207,7 +207,7 @@ body {
   overflow-x: hidden;
 }
 
-button, .btn {
+.btn_width {
   width: 150px;
 }
 
@@ -258,11 +258,7 @@ button, .btn {
   width: auto;
 }
 
-button, .btn {
-  width: 170px;
-}
-
-.btn {
+.btn_width {
   margin: 5px 0;
 }
 }
