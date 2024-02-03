@@ -207,6 +207,10 @@ body {
   overflow-x: hidden;
 }
 
+button, .btn {
+  width: 150px;
+}
+
 @media only screen and (max-width: 990px) {
 
 .features_grid {
@@ -252,6 +256,14 @@ body {
 .brand_logo {
   height: 55px;
   width: auto;
+}
+
+button, .btn {
+  width: 170px;
+}
+
+.btn {
+  margin: 5px 0;
 }
 }
 
