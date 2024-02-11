@@ -1,4 +1,4 @@
-.gradient-background {
+body, footer, main{
 background: linear-gradient(300deg, #1A1A2E, #16213E, #0F3460,#872341, #BE3144, #F05941);
 background-size: 200% 200%;
 animation: gradient-animation 25s ease infinite;
@@ -13,33 +13,6 @@ animation: gradient-animation 25s ease infinite;
 }
 100% {
   background-position: 0% 100%;
-}
-
-}
-
-.gradient-background-3 {
-  background: linear-gradient(300deg, #910A67, #720455, #3C0753,#030637);
-  background-size: 200% 200%;
-  animation: gradient-animation 25s ease infinite;
-  }
-  
-
-.gradient-background-2 {
-background: linear-gradient(300deg, #1A1A2E, #16213E, #0F3460,#872341, #BE3144, #F05941);
-background-size: 250% 100%;
-animation: gradient-animation2 25s ease infinite;
-top: 90%;
-}
-
-@keyframes gradient-animation2 {
-0% {
-  background-position: 17% 10%;
-}
-50% {
-  background-position: 70% 10%;
-}
-100% {
-  background-position: 17% 10%;
 }
 
 }
@@ -210,6 +183,7 @@ body {
 .btn_width {
   width: 150px;
 }
+
 
 @media only screen and (max-width: 990px) {
 
