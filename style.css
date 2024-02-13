@@ -6,7 +6,7 @@ animation: gradient-animation 25s ease infinite;
 }
 
 html {
-  overflow: hidden;
+  overflow-x: hidden;
   width: 100vw;
 }
 
