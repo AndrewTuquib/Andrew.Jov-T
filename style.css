@@ -6,8 +6,8 @@ animation: gradient-animation 25s ease infinite;
 }
 
 html,body {
-  margin:0;
-  padding:0;
+  margin:auto;
+  padding:auto;
   overflow-x: hidden;
   width: 100vw;
 }
@@ -264,9 +264,9 @@ footer > .brand_logo {
 .text-body-secondary > svg{
   width: 15px;
 }
-  h3 {
+
+h3 {
   font-size: medium;
 }
-  
   
 }
