@@ -264,5 +264,9 @@ footer > .brand_logo {
 .text-body-secondary > svg{
   width: 15px;
 }
+  h3 {
+  font-size: medium;
+}
+  
   
 }
