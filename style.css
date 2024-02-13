@@ -1,7 +1,13 @@
+
 body, footer, main{
 background: linear-gradient(300deg, #1A1A2E, #16213E, #0F3460,#872341, #BE3144, #F05941);
 background-size: 200% 200%;
 animation: gradient-animation 25s ease infinite;
+}
+
+html {
+  overflow: hidden;
+  width: 100vw;
 }
 
 @keyframes gradient-animation {
@@ -174,10 +180,6 @@ animation: spin 2.5s linear infinite;
 
 .carousel-caption > h2, .carousel-caption > p {
   font-weight: 700;
-}
-
-body {
-  overflow-x: hidden;
 }
 
 .btn_width {
